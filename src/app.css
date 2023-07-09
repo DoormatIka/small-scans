@@ -1,17 +1,15 @@
+@font-face {
+    font-family: "Publica";
+    src: url("/fonts/PublicaSans.otf");
+}
+@font-face {
+    font-family: "Yukita";
+    src: url("/fonts/YukitaSans-SemiBold.otf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-	@font-face {
-        font-family: "Publica";
-        src: url("PublicaSans.otf");
-    }
-    @font-face {
-        font-family: "Yukita";
-        src: url("YukitaSans-SemiBold.otf");
-    }
-}
 
 html {
     @apply bg-dark
@@ -23,6 +21,10 @@ h1 {
 
 h3 {
     @apply font-yuki text-3xl text-white;
+}
+
+h4 {
+    @apply font-yuki text-xl text-white;
 }
 
 p {

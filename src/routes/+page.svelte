@@ -13,4 +13,12 @@
 <div class="pl-5 flex flex-col space-y-2">
     <h1>Quality scanlations delivered via <span class="text-orange-400 hover:text-orange-500 transition-all ease-in">MangaDex.</span></h1>
     <p>And the Discord too.</p>
+    <div class="border p-2 w-72 break-words text-center space-y-2">
+        <img 
+            src="https://mangadex.org/covers/ba4c82bb-cfdc-445f-b1bd-8e152623966a/5fee1ebb-9d5d-4d5d-841a-60e589e6f06b.jpg" 
+            alt="Setting things straight with brats thumbnail"
+            class="w-72"
+        />
+        <h4>Setting Things Straight with Brats</h4>
+    </div>
 </div>
