@@ -1,6 +1,11 @@
 <script>
+    import { base } from "$app/paths";
     import "../app.css";
 </script>
+
+<svelte:head>
+    <link href="{base}/assets/icons/all.min.css" rel="stylesheet">
+</svelte:head>
 
 <div class="p-5 box-border">
     <slot />
