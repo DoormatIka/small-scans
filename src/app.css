@@ -27,6 +27,6 @@ h4 {
     @apply font-yuki text-xl text-white;
 }
 
-p {
+p, a {
     @apply font-publica text-lg text-white;
 }

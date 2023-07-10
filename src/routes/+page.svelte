@@ -26,13 +26,23 @@
             name: "Until This Social Outcast Becomes My Wife...",
             img: `${base}/assets/mangadex/social.jpg`,
             link: "https://mangadex.org/title/6f840f35-52d2-4795-86eb-47fc2c7cd4b0/until-this-social-outcast-becomes-my-wife"
+        },
+        {
+            name: "Until I Make My Cousin Happy",
+            img: `${base}/assets/mangadex/cousinhappy.jpg`,
+            link: "https://mangadex.org/title/a32c7fe6-566f-4045-a424-69bb91493e8d/until-i-make-my-cousin-happy"
+        },
+        {
+            name: "Until I Make My Cousin Happy (Timeskip)",
+            img: `${base}/assets/mangadex/cousinhappytimeskip.jpg`,
+            link: "https://mangadex.org/title/d1bf181a-aa3e-45dc-8299-d54e2e015314/until-i-make-my-cousin-happy"
         }
     ];
 </script>
 
 <div class="flex items-center justify-between">
     <div class="flex items-center space-x-4">
-        <img src="/assets/arrow-right-circle.svg" alt="Red ball" class="pb-1 h-10 w-10 hover:translate-x-2 transition-all ease-in collapse sm:visible" />
+        <img src="{base}/assets/arrow-right-circle.svg" alt="Red ball" class="pb-1 h-10 w-10 hover:translate-x-2 transition-all ease-in collapse sm:visible" />
         <h3>SmallScans</h3>
     </div>
     <div class="flex items-center space-x-4">
@@ -52,7 +62,7 @@
                 class="fa-brands fa-discord pt-1 text-blue-400/50 group-hover:text-blue-400 transition-colors ease-in" 
                 id="discord"
             />
-            <p class="text-blue-400/50 group-hover:text-blue-400 transition-all ease-in">Discord</p>
+            <a href="https://discord.com/invite/j4DxxvKbSx" class="text-blue-400/50 group-hover:text-blue-400 transition-all ease-in">Discord</a>
         </div>
 
         <div 
@@ -70,7 +80,7 @@
                 class="fa-brands fa-twitter pt-1 text-cyan-300/70 group-hover:text-cyan-300 transition-colors ease-in" 
                 id="twitter"
             />
-            <p class="text-cyan-300/70 group-hover:text-cyan-300 transition-all ease-in">Twitter</p>
+            <a href="https://twitter.com/Ssmallsan" class="text-cyan-300/70 group-hover:text-cyan-300 transition-all ease-in">Twitter</a>
         </div>
 
         
@@ -83,9 +93,9 @@
     <p class="pt-2">And the Discord too.</p>
     <br><br>
     <div class="flex justify-center">
-        <div class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-7 w-max">
+        <div class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-7 w-max">
             {#each mangadex as {img, link, name}, i}
-                <div class="border p-2 w-52 break-words text-center space-y-2 flex flex-col justify-between">
+                <div class="border p-2 w-52 break-words text-center space-y-2 flex flex-col">
                     <img 
                         src={img}
                         alt="Thumbnail"
@@ -98,6 +108,8 @@
             {/each}
         </div>
     </div>
+
+    <br><br>
 
     <div>
         <div class="border">
