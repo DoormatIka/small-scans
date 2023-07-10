@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Publica";
-    src: url("/fonts/PublicaSans.otf");
+    src: url("/assets/fonts/PublicaSans.otf");
 }
 @font-face {
     font-family: "Yukita";
-    src: url("/fonts/YukitaSans-SemiBold.otf");
+    src: url("/assets/fonts/YukitaSans-SemiBold.otf");
 }
 
 @tailwind base;
